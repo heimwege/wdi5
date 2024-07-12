@@ -6,6 +6,10 @@ class Other extends Page {
         await super.open(`#/Other`)
     }
 
+    async doSomething() {
+        console.error("hello")
+    }
+
     async getList(force = false) {
         const listSelector: wdi5Selector = {
             selector: {
