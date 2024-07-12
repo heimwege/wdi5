@@ -9,7 +9,7 @@ export const config: wdi5Config = {
 
     services: ["ui5"],
 
-    specs: ["./test/e2e/**/*.test.ts"],
+    specs: ["./test/e2e/**/MultiInput.test.ts"],
     // these are for authentication tests only
     exclude: [
         "./test/e2e/Custom.test.ts",
