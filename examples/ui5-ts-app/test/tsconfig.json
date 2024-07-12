@@ -4,7 +4,7 @@
     "types": ["node", "@openui5/types", "@wdio/globals/types", "@wdio/mocha-framework", "wdio-ui5-service/esm"],
     "target": "es2019",
     "paths": {
-      "test/Sample/tsapptest/*": ["./*"]
+      "tsapptest/*": ["./*"]
     }
   }
 }

@@ -1,11 +1,11 @@
 import MultiInput from "sap/m/MultiInput"
 import { wdi5Selector } from "wdio-ui5-service"
-import Page from "test/Sample/tsapptest/e2e/pageObjects/Page"
+import Page from "tsapptest/e2e/pageObjects/Page"
 
 describe("MultiInput", async () => {
     it("should put text into the multi input control", async () => {
         const page = new Page()
-        page.log()
+        await page.log()
         const multiInputSelector: wdi5Selector = {
             forceSelect: true, // we need this as the control receives an input that changes the dom structure
             selector: {

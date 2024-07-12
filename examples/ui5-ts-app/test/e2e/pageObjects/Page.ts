@@ -1,5 +1,5 @@
 import { wdi5 } from "wdio-ui5-service"
-import Other from "test/Sample/tsapptest/e2e/pageObjects/Other"
+import Other from "tsapptest/e2e/pageObjects/Other"
 
 export default class Page {
     async open(path) {
